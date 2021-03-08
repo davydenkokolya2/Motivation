@@ -10,11 +10,10 @@
 .head_up {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    //grid-auto-rows: 200px;
     color: black;
     text-align: center;
     font-size: 0.7rem;
-    margin-left: 33rem;
+    margin-left: 50%;
 }
 
 .head_down {
@@ -25,21 +24,56 @@
     color: black;
     text-align: left;
     font-size: 0.7rem;
-    margin-left: 37rem;
+    margin-left: 60%;
 }
 
-.head_down p{
+.head_down p {
     display: grid;
     grid-template-columns: 4fr 3fr;
 }
-.head_down div{
+.head_down div {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-.head_down div button{
+.head_down div button {
     border: none;
     background-color: rgba(0, 255, 255, 0.925);
     color: white;
-    padding: 0.7rem;
+    padding: 10% 8% 10% 8%;
+}
+
+.About_us h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+.About_us div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.About_us div p {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.skills progress {
+    width: 90%;
+}
+
+.skills_left {
+    padding-left: 10%;
+    padding-top: 20%;
+    height:110%;
+    background: rgba(163, 175, 187, 0.2);
+}
+.skills_right {
+    height:110%;
+    padding-top: 20%;
+    background: rgba(179, 182, 184, 0.4);
 }

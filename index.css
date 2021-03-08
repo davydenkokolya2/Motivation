@@ -16,7 +16,7 @@
   color: black;
   text-align: center;
   font-size: 0.7rem;
-  margin-left: 33rem;
+  margin-left: 50%;
 }
 
 .head_down {
@@ -28,7 +28,7 @@
   color: black;
   text-align: left;
   font-size: 0.7rem;
-  margin-left: 37rem;
+  margin-left: 60%;
 }
 
 .head_down p {
@@ -50,6 +50,48 @@
   border: none;
   background-color: rgba(0, 255, 255, 0.925);
   color: white;
-  padding: 0.7rem;
+  padding: 10% 8% 10% 8%;
+}
+
+.About_us h2 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.About_us div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+}
+
+.About_us div p {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  text-align: center;
+}
+
+.skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.skills progress {
+  width: 90%;
+}
+
+.skills_left {
+  padding-left: 10%;
+  padding-top: 20%;
+  height: 110%;
+  background: rgba(163, 175, 187, 0.2);
+}
+
+.skills_right {
+  height: 110%;
+  padding-top: 20%;
+  background: rgba(179, 182, 184, 0.4);
 }
 /*# sourceMappingURL=index.css.map */
