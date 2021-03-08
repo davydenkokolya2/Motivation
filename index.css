@@ -48,7 +48,7 @@
 
 .head_down div button {
   border: none;
-  background-color: rgba(0, 255, 255, 0.925);
+  background-color: #23dfc6;
   color: white;
   padding: 10% 8% 10% 8%;
 }
@@ -85,13 +85,37 @@
 .skills_left {
   padding-left: 10%;
   padding-top: 20%;
-  height: 110%;
+  padding-bottom: 20%;
   background: rgba(163, 175, 187, 0.2);
 }
 
 .skills_right {
-  height: 110%;
   padding-top: 20%;
+  padding-bottom: 20%;
   background: rgba(179, 182, 184, 0.4);
+}
+
+.numbers {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  background: #23dfc6;
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.numbers > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.numbers img {
+  height: 10%;
 }
 /*# sourceMappingURL=index.css.map */
