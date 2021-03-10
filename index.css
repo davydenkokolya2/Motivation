@@ -118,4 +118,62 @@
 .numbers__div img {
   width: 30px;
 }
+
+.table-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.table-1 div {
+  height: 10rem;
+}
+
+.table-1 div:hover {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.table-1 :nth-child(odd) {
+  background-color: #899b9b;
+}
+
+.table-1 :nth-child(even) {
+  background-color: #5b6464;
+}
+
+.table-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.table-2 div {
+  height: 10rem;
+}
+
+.table-2 div:hover {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.table-2 :nth-child(even) {
+  background-color: #899b9b;
+}
+
+.table-2 :nth-child(odd) {
+  background-color: #5b6464;
+}
+
+.load_more_work {
+  text-align: center;
+  background-color: lightgray;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: small;
+}
+
+.load_more_work p {
+  margin: 0%;
+}
 /*# sourceMappingURL=index.css.map */
