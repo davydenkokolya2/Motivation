@@ -8,7 +8,7 @@
   padding-top: 1rem;
 }
 
-.head_up {
+.header__up {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[7];
@@ -19,7 +19,7 @@
   margin-left: 50%;
 }
 
-.head_down {
+.header__down {
   padding-top: 5rem;
   display: -ms-grid;
   display: grid;
@@ -31,14 +31,14 @@
   margin-left: 60%;
 }
 
-.head_down p {
+.header__down__p {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 4fr 3fr;
       grid-template-columns: 4fr 3fr;
 }
 
-.head_down div {
+.header__down__div {
   margin-top: 1rem;
   display: -ms-grid;
   display: grid;
@@ -46,7 +46,7 @@
       grid-template-columns: 1fr 3fr;
 }
 
-.head_down div button {
+.header__down__div__button {
   border: none;
   background-color: #23dfc6;
   color: white;
@@ -78,18 +78,18 @@
       grid-template-columns: repeat(2, 1fr);
 }
 
-.skills progress {
-  width: 90%;
-}
-
-.skills_left {
+.skills__left {
   padding-left: 10%;
   padding-top: 20%;
   padding-bottom: 20%;
   background: rgba(163, 175, 187, 0.2);
 }
 
-.skills_right {
+.skills__left__progress {
+  width: 90%;
+}
+
+.skills__right {
   padding-top: 20%;
   padding-bottom: 20%;
   background: rgba(179, 182, 184, 0.4);
@@ -108,14 +108,14 @@
       grid-template-columns: repeat(4, 1fr);
 }
 
-.numbers > div {
+.numbers__div {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 3fr;
       grid-template-columns: 1fr 3fr;
 }
 
-.numbers img {
-  height: 10%;
+.numbers__div img {
+  width: 30px;
 }
 /*# sourceMappingURL=index.css.map */
