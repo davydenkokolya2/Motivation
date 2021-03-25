@@ -188,5 +188,5 @@ function selectdate() {
         default:
             alert("Нет таких значений");
     }
-    /
+    
 }
