@@ -1,5 +1,11 @@
+function getArray() {
+    return document.getElementById('array').value.split(' ');
+}
+function printArray(array) {
+    document.getElementById('answer').value = array;
+}
 function bubbleSort() {
-    let array = document.getElementById('array').value.split(' ');
+    let array = getArray();
 
     let f = 1;
     while (f == '1') {
@@ -12,11 +18,11 @@ function bubbleSort() {
                 f = 1;
             }
     }
-    document.getElementById('answer').value = array;
+    printArray(array);
 }
 
 function selectSort() {
-    let array = document.getElementById('array').value.split(' ');
+    let array = getArray();
 
     for (let i = 0; i < array.length - 1; i++) {
         let min = +array[i];
@@ -30,16 +36,16 @@ function selectSort() {
         array[index] = array[i];
         array[i] = min;
     }
-    document.getElementById('answer').value = array;
+    printArray(array);
 
 }
 
 function quickSort() {
-    let array = document.getElementById('array').value.split(' ');
+    let array = getArray();
 
     array.sort(compareNumbers);
     function compareNumbers(a, b) {
         return a - b;
     }
-    document.getElementById('answer').value = array;
+    printArray(array);
 }
