@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 function selectdate() {
     let date = new Date();
     
