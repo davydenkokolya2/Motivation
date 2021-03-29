@@ -1,5 +1,5 @@
 Array.prototype.findMax = function () {
-    let max = 0;
+    let max = Number.MIN_VALUE;
     for (let i = 0; i < this.length; i++) {
         if (+this[i] > max)
             max = +this[i];
@@ -8,7 +8,9 @@ Array.prototype.findMax = function () {
 }
 
 Array.prototype.findMin = function () {
-    let min = 100000000000;
+    let min = Number.MAX_VALUE;
+    
+    
     for (let i = 0; i < this.length; i++) {
         if (+this[i] < min)
             min = +this[i];
