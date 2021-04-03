@@ -9,7 +9,7 @@ function curry(fn) {
                 const args2 = Array.prototype.slice.call(arguments)
                 return curried.apply(this, args.concat(args2))
             }
-        }
+        } 
     }
 }
 
