@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="data.js"></script>
+    <script src="first_task.js"></script>
+    <script src="sorts.js"></script>
+    <script src="converter.js"></script>
+    <script src="calculator.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="task1">
+        <input type="text" id="array">
+        <input type="button" value="Max" onclick="findMax()">
+        <input type="button" value="Min" onclick="findMin()">
+        <input type="button" value="Average" onclick="calculateAverage()">
+        <input type="button" value="BubbleSort" onclick="bubbleSort()">
+        <input type="button" value="SelectSort" onclick="selectSort()">
+        <input type="button" value="QuickSort" onclick="quickSort()">
+        <input type="text" id="answer">
+    </form>
+    <form name="task2">
+        <input type="text" id="array2">
+        <select id="firstselect">
+            <option value="2">2</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="16">16</option>
+        </select>
+        <input type="button" value="Convert" onclick="convert()">
+        <select id="secondselect">
+            <option value="2">2</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="16">16</option>
+        </select>
+        <input type="text" id="answer2">
+    </form>
+    <form name="calculater">
+        <input type="text" id="calculator">
+        <input type="button" value="+" onclick="plus()">
+        <input type="button" value="-" onclick="minus()">
+        <input type="button" value="*" onclick="multiply()">
+        <input type="button" value="/" onclick="split()">
+        <input type="button" value="=" onclick="equally()">
+        <textarea id="cache" cols="30" rows="10"></textarea>
+    </form>
+    <form name="date">
+        <input type="text" id="date">
+        <select id="formatselect" onclick="selectdate()">
+            <option value="1">31.12.2020</option>
+            <option value="2">01.jan.2020</option>
+            <option value="3">12.31.2020</option>
+        </select>
+    </form>
+</body>
+
+</html>

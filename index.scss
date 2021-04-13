@@ -1,0 +1,140 @@
+.main {
+    margin: 0 0 0 0;
+}
+.header {
+    background: rgba(179, 182, 184, 0.4);
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    &__up {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        color: black;
+        text-align: center;
+        font-size: 0.7rem;
+        margin-left: 50%;
+    }
+    &__down {
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        //grid-auto-rows: 200px;
+        color: black;
+        text-align: left;
+        font-size: 0.7rem;
+        margin-left: 60%;
+        &__p {
+            display: grid;
+            grid-template-columns: 4fr 3fr;
+        }
+        &__div {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            &__button {
+                border: none;
+                background-color: rgb(35, 223, 198);
+                color: white;
+                padding: 10% 8% 10% 8%;
+            }
+        }
+    }
+}
+
+.About_us h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+.About_us div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.About_us div p {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    &__left {
+        padding-left: 10%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        //height:110%;
+        background: rgba(163, 175, 187, 0.2);
+        &__progress {
+            width: 90%;
+        }
+    }
+    &__right {
+        padding-top: 20%;
+        padding-bottom: 20%;
+        background: rgba(179, 182, 184, 0.4);
+    }
+}
+
+.numbers {
+    // width: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background: rgb(35, 223, 198);
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+    &__div {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        img {
+            width: 30px;
+        }
+    }
+}
+
+.table-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    div {
+        height: 10rem;
+    }
+    div:hover {
+        background-color: rgba(0, 0, 0, 0.726);
+    }
+    :nth-child(odd) {
+        background-color: rgb(137, 155, 155);
+    }
+    :nth-child(even) {
+        background-color: rgb(91, 100, 100);
+    }
+
+}
+.table-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    div {
+        height: 10rem;
+    }
+    div:hover {
+        background-color: rgba(0, 0, 0, 0.726);
+    }
+    :nth-child(even) {
+        background-color: rgb(137, 155, 155);
+    }
+    :nth-child(odd) {
+        background-color: rgb(91, 100, 100);
+    }
+}
+.load_more_work {
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: small;
+    p {
+        margin: 0%;
+    }
+}
+.our_work_process {
+    text-align: center;
+}
